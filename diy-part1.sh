@@ -17,6 +17,4 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #
 
-git clone helloworld https://github.com/fw876/helloworld.git package/openwrt-packages
-
 curl -fsSL  https://raw.githubusercontent.com/xiaorouji/openwrt-passwall/main/v2ray-plugin/Makefile > package/lean/v2ray-plugin/Makefile
