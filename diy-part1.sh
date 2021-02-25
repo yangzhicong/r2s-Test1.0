@@ -7,7 +7,7 @@
 #
 # https://github.com/P3TERX/Actions-OpenWrt
 # File name: diy-part1.sh
-# Description: OpenWrt DIY script part 1 (Before Update feeds)
+# Description: OpenWrt DIY script part 1 (Before Update feeds)https://github.com/lisaac/luci-app-dockerman
 #
 
 # Uncomment a feed source
@@ -19,4 +19,5 @@
 
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/kenzok8/small.git package/openwrt-small
-
+git clone https://github.com/lisaac/luci-lib-docker.git package/openwrt-small
+git clone https://github.com/lisaac/luci-app-dockerman.git package/openwrt-packages
